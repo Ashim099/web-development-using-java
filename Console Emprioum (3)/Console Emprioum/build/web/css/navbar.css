@@ -1,0 +1,47 @@
+.nav-bar {
+  margin-bottom: 15px; /* Increased margin for more space */
+  background-color: none;
+  border: none;
+}
+
+.nav-bar-wrapper {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.logo {
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-grow: 1; /* Take remaining space */
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0; /* Removed margin */
+  padding: 0; /* Removed padding */
+  list-style: none; /* Removed bullet points */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0b2e91;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 20px; /* Added margin for space between links */
+}
+
+.menu a:hover {
+  color: grey;
+  text-decoration: underline;
+}

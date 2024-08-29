@@ -1,0 +1,44 @@
+.admin-container {
+    max-width: 800px; /* Adjusted max-width */
+    margin: 50px auto; /* Centered container with margin-top */
+    padding: 20px;
+    background-color: #fff; /* Changed background color */
+    border-radius: 8px; /* Increased border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px; /* Adjusted font size */
+}
+
+.admin-options {
+    display: flex;
+    justify-content: center; /* Centered admin options */
+    align-items: center;
+    flex-wrap: wrap; /* Wrapped admin options */
+    gap: 10px; /* Added gap between options */
+}
+
+.admin-option {
+    margin-bottom: 10px;
+}
+
+.admin-option a {
+    display: inline-block;
+    padding: 12px 24px; /* Adjusted padding */
+    background-color: #007bff; /* Changed background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px; /* Adjusted font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-option a:hover {
+    background-color: #0056b3; /* Adjusted hover color */
+}

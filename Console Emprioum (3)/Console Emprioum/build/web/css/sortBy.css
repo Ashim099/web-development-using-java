@@ -1,0 +1,46 @@
+.sortBy {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 20px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+}
+
+select option {
+    padding: 5px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005b7f;
+}
+
+.product input[type="text"] {
+    flex: 1 1 auto;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
